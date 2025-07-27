@@ -1,0 +1,13 @@
+[server_rack_1]
+server1 ansible_host=34.243.4.208
+server2 ansible_host=52.31.238.204
+server3 ansible_host=54.229.122.31
+
+server1 ansible_user=ec2-user
+server2 ansible_user=ubuntu
+server3 ansible_user=ec2-user
+
+
+[server_rack_1:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file=/home/ubuntu/keys/my-key-2o.pem
