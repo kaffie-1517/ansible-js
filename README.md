@@ -1,4 +1,5 @@
-# Ansible Automation with Terraform-Provisioned Infrastructure
+# Multi-Environment Cloud Infrastructure Automation
+### Ansible Automation with Terraform-Provisioned Infrastructure
 
 This repository automates the provisioning and configuration of multiple Linux servers using **Terraform** and **Ansible**. The infrastructure comprises 4 EC2-based servers (1 master + 3 clients), organized under `dev` and `prod` environments.
 
